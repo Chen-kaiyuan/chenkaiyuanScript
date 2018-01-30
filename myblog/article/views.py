@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from article.models import Article
 from datetime import  datetime
 from django.http import Http404
+
 # Create your views here.
 
 def home(request):

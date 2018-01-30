@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'bootstrap_admin',
+    #'bootstrap_admin',
     'django.contrib.admin', # admin
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +39,15 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'article',
+)
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.11/howto/static-files/
+
+STATIC_ROOT = 'C:\\Python27\\lib\\site-packages\\django\\contrib\\admin\\static\\'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
 )
 
 from  django.conf import global_settings
