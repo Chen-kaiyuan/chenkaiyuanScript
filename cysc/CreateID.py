@@ -83,14 +83,23 @@ def jxms(id):
         count = count + int(id[i]) * weight[i]
     xsid = id + checkcode[str(count % 11)]  # 算出校验码
     return xsid
-
-if __name__ == '__main__':
+   
+def NewID():
+    """
+    Just use this
+    :param :
+    :return:
+    """
     citys = city()
     second = year()
     mon = mons()
     day = days()
     sxh = sxhs()
-    oldid = "{}{}{}{}{}".format(citys,second,mon,day,sxh)
-    print(oldid)
+    oldid = "{}{}{}{}{}".format(citys, second, mon, day, sxh)
     newid = jxms(oldid)
-    print(newid)
+    return newid
+   
+if __name__ == '__main__':
+    Newid = NewID()
+    print(Newid)
+ 
