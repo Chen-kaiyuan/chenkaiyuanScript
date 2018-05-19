@@ -1,7 +1,9 @@
-# 敏感字段搜索脚本
+# scan keys fields
 
+this script  is scan Key Information on log、text...
 
-这里存放的是敏感字段搜索脚本
+## 1、run.py
 
-## 1、test1.py
+python run.py 0 start
+
 
