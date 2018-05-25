@@ -10,6 +10,6 @@
        $ source /etc/profile
 	   ```
 
-   runnning shell on every build is ok
+   runnning shell install node on every build is ok
    
 
