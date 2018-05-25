@@ -9,6 +9,7 @@
        $ bash NodeDeploy.sh v7.5.0
        $ source /etc/profile
 	   ```
- 	    runnning shell on every build is ok
+
+   runnning shell on every build is ok
    
 
